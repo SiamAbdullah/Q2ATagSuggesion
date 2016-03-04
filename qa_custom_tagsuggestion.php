@@ -27,9 +27,9 @@ class qa_custom_tagsuggestion {
 
     function output_widget($region, $place, $themeobject, $template, $request, $qa_content)
     {
-      if((bool)qa_post_text('enabled_custom_tagsuggestion')){
-        $html = '<script src="'.$this->urltoroot.'customtagsuggestion.js?'. CUSTOM_TAGSUGGESTION_VERSION .'"></script>';
-        $html .= '<style>
+      if((bool)qa_opt('enabled_custom_tagsuggestion')){
+         $html = '<script src="'.$this->urltoroot.'customtagsuggestion.js?'. CUSTOM_TAGSUGGESTION_VERSION .'"></script>';
+         $html .= '<style>
                     .qa-sidebar{display: none;}
                     #tag_hints{
                         position: absolute;

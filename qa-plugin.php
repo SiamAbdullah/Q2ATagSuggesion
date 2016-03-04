@@ -1,12 +1,12 @@
 <?php
 
 /*
-    Plugin Name: Siam Abdullah
+    Plugin Name: Custom Tag Suggestion
     Plugin URI:
     Plugin Description: Custom tag suggesion and selection
     Plugin Version: 1.1.1
     Plugin Date: 2016-03-02
-    Plugin Author: Question2Answer
+    Plugin Author: Siam Abdullah
     Plugin Author URI: http://www.question2answer.org/
     Plugin License: GPLv2
     Plugin Minimum Question2Answer Version: 1.3
